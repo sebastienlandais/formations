@@ -340,3 +340,32 @@ p{
     margin-top: 20px;
     color: #F95E05;
 }
+/*----------Newsletter----------*/
+#newsletter{
+    background-color: #1b2148;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 120px;
+}
+#newsletter h3{
+    font-size: 32px;
+    color: #09C7FA;
+}
+#newsletter p{
+    font-size: 18px;
+    color: #FFF;
+}
+.form-newsletter{
+    display: flex;
+    width: 36%;
+}
+.form-newsletter input{
+    height: 3.5em;
+    padding: 0px 1.4em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius:5px ;
+}
