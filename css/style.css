@@ -463,4 +463,87 @@ p{
 .row-col-form button:hover{
     background-color: #1F7DF5;
 }
+/* -------------footer -----------------*/
+
+footer {
+	margin: 35px 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.colonne {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.colonne h3 {
+	color: #4A4948;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+
+.colonne h4 {
+	color: #4A4948;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.contact-infos-detail p {
+	line-height: 20px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #BBB8B7;
+}
+
+footer p {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.colonne a {
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: #3D3F3F;
+}
+
+.colonne a:hover{
+	color: #0858F9;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-infos-detail div {
+	display: flex;
+}
+
+.fa-location-dot {
+	font-size: 16px;
+	line-height: 20px;
+	color: #053292;
+	margin-right: 20px;
+}
+
+.fa-phone {
+	font-size: 16px;
+	line-height: 20px;
+	color: #053292;
+	margin-right: 20px;
+}
+
+.fa-envelope {
+	font-size: 16px;
+	line-height: 20px;
+	color: #053292;
+	margin-right: 20px;
+}
+
  
