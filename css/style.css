@@ -304,3 +304,39 @@ p{
     transition: 0.6s;
     color: #FFF;
 }
+/*------------Avis utilisateurs--------*/
+.container-avis{
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+
+}
+.container-avis h1{
+    margin-bottom: 30px;
+}
+.row-avis{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.avis-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0 , 0 , 0.4);
+}
+.avis-col img{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+.star-avis{
+    margin-top: 20px;
+    color: #F95E05;
+}
