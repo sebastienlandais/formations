@@ -1,0 +1,199 @@
+/*Styles généraux*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height: 64px;
+    color: #3D3F3F;
+}
+h2{
+    font-size: 30px;
+    line-height: 54px;
+    color: #3D3F3F;
+}
+h3{
+    font-size: 24px;
+    line-height: 40px;
+    color: #3D3F3F;
+}
+h4{
+    font-size: 20px;
+    color: #3D3F3F;
+}
+p{
+    font-size: 15px;
+    color: #465B52;
+    margin: 15px 0 20px 0;
+    line-height: 20px;
+}
+/* Nav Bar*/
+.logo{
+    max-width: 100px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #182C64;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    z-index: 999;
+    position: sticky;
+}
+#topmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#topmenu li{
+    list-style: none;
+    padding: 0 10px;
+  
+
+}
+#topmenu li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#topmenu li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: skyblue;
+    display: block;
+    margin-left:0px ;
+    transition:0.6s ;
+}
+#topmenu li:hover::after{
+    width: 60%;
+}
+/*------Image nav-bar, text et boutton --------*/
+.header{
+    background-image: url("../images/header.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header h1{
+    color: #FFF;
+    padding-bottom: 10px;
+}
+.header h3{
+    color: #FFF;
+    padding-bottom: 15px;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+.btn:hover{
+    border: 1px solid #fe725f;
+    background-color: #fe725f;
+    transition: 0.5s;
+}
+/*-------Section Formations--------*/
+.formations{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.formations-col{
+    flex-basis: 30%;
+    background-color: #F6FAFF;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.4s;
+    position: relative;
+
+}
+.formations-col img{
+    width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.formations-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #182C64;
+}
+.formations-col p{
+    padding: 10px 20px;
+
+}
+.formations-col:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    
+} 
+.btn-formation{
+    display: inline-block;
+    text-decoration: none;
+    color: #182C64;
+    border: 1px solid #182C64;
+    padding: 12px 34px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+}
+.btn-formation:hover{
+    border: 1px solid #182C64;
+    background-color: #182C64;
+    color: #fff;
+    transition: 0.5s;
+}
+.prix{
+    background-color: #F98305;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 650;
+    position: absolute;
+    right: 12px;
+    top: 125px;
+}
+.star{
+    text-align: left;
+    margin-left: 20px;
+    color: #F98305;
+}
